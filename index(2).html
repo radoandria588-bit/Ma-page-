@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription Atelier</title>
+    <style>
+        form{
+            width: 50%;
+            margin: 20px auto;
+            border: 1px solid black;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        nav a{
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        label{
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- MENU -->
+    <nav>
+        <a href="equipe.html">Équipe</a>
+        <a href="inscription.html">Inscription Atelier</a>
+    </nav>
+
+    <h1 style="text-align:center;">Formulaire d’Inscription</h1>
+
+    <form action="#" method="post">
+
+        <label>Nom :
+            <input type="text" name="nom" required pattern="[A-Za-z]{3,}">
+        </label>
+
+        <label>Email :
+            <input type="email" name="email" required>
+        </label>
+
+        <label>Date de participation :
+            <input type="date" name="date" required>
+        </label>
+
+        <label>Photo (fichier) :
+            <input type="file" name="photo" required>
+        </label>
+
+        <label>
+            <input type="checkbox" required>
+            J’accepte les conditions
+        </label>
+
+        <button type="submit">Envoyer</button>
+    </form>
+
+</body>
+</html>

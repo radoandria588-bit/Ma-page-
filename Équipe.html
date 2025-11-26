@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Équipe</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+        nav a {
+            margin: 10px;
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+        }
+        .btn {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            background: black;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- MENU -->
+    <nav>
+        <a href="equipe.html">Équipe</a>
+        <a href="inscription.html">Inscription Atelier</a>
+    </nav>
+
+    <h1 style="text-align:center;">Notre Équipe</h1>
+
+    <table>
+        <caption><strong>Tableau des membres</strong></caption>
+
+        <thead>
+            <tr>
+                <th rowspan="2">Nom</th>
+                <th rowspan="2">Rôle</th>
+                <th colspan="2">Compétences</th>
+            </tr>
+            <tr>
+                <th>Techniques</th>
+                <th>Humaines</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Ando</td>
+                <td>Développeur</td>
+                <td>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </td>
+                <td>
+                    <ol>
+                        <li>Travail en équipe</li>
+                        <li>Créativité</li>
+                    </ol>
+                </td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">Rado</td>
+                <td rowspan="2">Designer</td>
+                <td>
+                    <ul>
+                        <li>Photoshop</li>
+                        <li>Illustrator</li>
+                    </ul>
+                </td>
+                <td>Communication</td>
+            </tr>
+
+            <tr>
+                <td>UI/UX</td>
+                <td>
+                    <ul>
+                        <li>Empathie</li>
+                        <li>Organisation</li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- BOUTON VERS FORMULAIRE -->
+    <a class="btn" href="inscription.html">Aller au formulaire</a>
+
+</body>
+</html>
